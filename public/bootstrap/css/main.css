@@ -1,0 +1,130 @@
+html,body {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: Segoe UI;
+    margin-bottom: 50px;
+    padding:0;
+    background-color: #f7f7f7;
+}
+
+.navbar-default {
+    background-color:#62a18e;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover {
+    color: #f6f6f6;
+}
+
+.welcome-message, .description {
+    padding: 30px;
+    background-color: #fff;
+    color: #656969;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.2);
+}
+
+.welcome-message h3, .welcome-message p {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.welcome-message h3 {
+    font-weight: 400;
+}
+
+.banner {
+    background: url('../../images/friends.jpg');
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 500px;
+    display: table;
+}
+
+.overlay {
+    background:rgba(0,0,0,0.5);
+    min-height: inherit;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.banner-header {
+    display: inline-block;
+}
+
+.banner-header h2 {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 100%;
+    margin: 0;
+}
+
+.banner-header a {
+    display: inline-block;
+    padding:10px;
+    margin:10px;
+    border:2px solid #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.banner-header a:hover {
+    background: rgba(0,0,0,0.60);
+    text-decoration: none;
+}
+
+.block-background {
+    background-color: white;
+    padding:20px;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.2);
+    margin:10px 0;
+    color:#AAA2A2;
+}
+
+.result-user img {
+    height: 60px;
+    width :60px;
+}
+
+.friend-list {
+    margin :10px 0;
+}
+
+.media .media-body .comment-block {
+    //background-color: #bee0d6;
+    //padding: 15px;
+}
+
+input[type="file" ] {
+    //color:red;
+    //visibility: hidden;
+}
+
+.dp-btn {
+    background-color: #62a18e;
+    color:#fff;
+    padding:10px;
+    width:150px;
+}
+
+.row .col-md-6 .friendlist {
+    margin-top: 10px;
+    max-height: 604px;
+    overflow-y: auto;
+}
+
